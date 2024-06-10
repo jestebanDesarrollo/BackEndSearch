@@ -16,4 +16,4 @@ const orderSchema = new mongoose.Schema({
     progress: {type: String, enum: ['Pendiente','Cancelada','Terminada']}
 });
 
-module.exports = mongoose.model('Oder', orderSchema);
+module.exports = mongoose.model('Order', orderSchema);
